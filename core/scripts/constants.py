@@ -1,11 +1,12 @@
 CLASSIFIED_LABELS_ARRAY = {
-    "masterCategory": "",
-    "subCategory": "",
-    "articleType": "",
-    "baseColour": "",
-    "season": "",
-    "usage": "",
+    "masterCategory": {"label": "", "confidence": 0.0},
+    "subCategory": {"label": "", "confidence": 0.0},
+    "articleType": {"label": "", "confidence": 0.0},
+    "baseColour": {"label": "", "confidence": 0.0},
+    "season": {"label": "", "confidence": 0.0},
+    "usage": {"label": "", "confidence": 0.0},
 }
+
 
 PATH_ARTICLE_TYPE_RELATIONSHIP_DATA = "core/data/article_type_relationships.csv"
 PATH_LABELS = "core/labels"
