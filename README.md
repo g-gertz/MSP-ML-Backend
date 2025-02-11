@@ -1,4 +1,4 @@
-# MSP-ML-Backend
+# VCloset Backend
 
 Machine learning backend of a scholarship group project I've worked on. It is powered by multiple ResNet50-based models to classify clothing just with a single image as an input.
 
@@ -23,7 +23,7 @@ Further information can be found within the `requirements.txt` file.
 This is the basic project structure:
 
 ```
-MSP-ML-Backend
+vcloset-backend
 ├── .env
 ├── main.py
 ├── requirements.txt
@@ -61,8 +61,8 @@ MSP-ML-Backend
 2. Place these models under `core/models`
 3. Create an `.env` file with the parameters `API_PORT` and `FRONTEND_PORT`
 4. You need to have `docker` installed
-5. Set up the docker container with `docker build -t msp-ml-backend .`
-6. Run the container with `docker run -d -p 9999:9999 msp-ml-backend`
+5. Set up the docker container with `docker build -t vcloset-backend .`
+6. Run the container with `docker run -d -p 9999:9999 vcloset-backend`
 
 ## Basic Usage (Local)
 
