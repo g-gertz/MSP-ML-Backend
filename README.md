@@ -59,17 +59,19 @@ MSP-ML-Backend
 
 1. Download each `.pt` model file from my [Hugging Face repo](https://huggingface.co/g-gertz/MSP-ML-Backend-Models/tree/main)
 2. Place these models under `core/models`
-3. You need to have `docker` installed
-4. Set up the docker container with `docker build -t msp-ml-backend .`
-5. Run the container with `docker run -d -p 9999:9999 msp-ml-backend`
+3. Create an `.env` file with the parameters `API_PORT` and `FRONTEND_PORT`
+4. You need to have `docker` installed
+5. Set up the docker container with `docker build -t msp-ml-backend .`
+6. Run the container with `docker run -d -p 9999:9999 msp-ml-backend`
 
 ## Basic Usage (Local)
 
 1. Download each `.pt` model file from my [Hugging Face repo](https://huggingface.co/g-gertz/MSP-ML-Backend-Models/tree/main)
 2. Place these models under `core/models`
-3. You need to have `Python 3.10` or greater
-4. Set up a virtual environment with `python -m venv .venv`
-5. Activate the virtual environment with `source .venv/Scripts/activate` (the path and file may change, depending on
+3. Create an `.env` file with the parameters `API_PORT` and `FRONTEND_PORT`
+4. You need to have `Python 3.10` or greater
+5. Set up a virtual environment with `python -m venv .venv`
+6. Activate the virtual environment with `source .venv/Scripts/activate` (the path and file may change, depending on
    your operating system)
-6. Install all dependencies with `pip install -r requirements.txt`
-7. Run the project with `python main.py`
+7. Install all dependencies with `pip install -r requirements.txt`
+8. Run the project with `python main.py`
